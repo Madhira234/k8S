@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-map-db
+data:
+  MYSQL_ROOT_PASSWORD: root 
+  MYSQL_DATABASE: dummydata
+  url: https://www.sonarsource.com/products/sonarqube/
+  github_url: https://github.com/Madhira234/k8s-Services.git
+  
+
